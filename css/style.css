@@ -25,6 +25,23 @@
     text-decoration: underline;
 }
 
-h1{
-    text-align: center;
+/*name and picture*/
+
+#name-pic-container{
+    width: 300px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+#img-myself{
+    width: 200px;
+    border-radius: 70%;
+    padding: 25px;
+
+}
+
+#my-name{
+    font-size: 32px;
+    font-family: 'Yeseva One', sans-serif;
+    text-align: center; 
 }
