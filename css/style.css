@@ -1,4 +1,4 @@
-/*top navigation bar*/
+
 #topbar-container{
     width:100%;
     background-color: #466e87; 
@@ -16,7 +16,7 @@
     color: #FFFFF7;
     padding: 0 20px;
     position:relative;
-    top: 30px;
+    top:30px;
     text-decoration: none;
     float: right;
 }
@@ -25,23 +25,6 @@
     text-decoration: underline;
 }
 
-/*name and picture*/
-
-#name-pic-container{
-    width: 300px;
-    margin: 20px;
-    padding-left: 40px;
-}
-
-#img-myself{
-    width: 200px;
-    border-radius: 70%;
-    padding: 25px;
-
-}
-
-#my-name{
-    font-size: 32px;
-    font-family: 'Yeseva One', sans-serif;
-    text-align: center; 
+h1{
+    text-align: center;
 }
