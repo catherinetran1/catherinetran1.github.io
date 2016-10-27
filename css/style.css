@@ -1,4 +1,30 @@
-h1 {
-    color: #CD5C5C;
+
+#topbar-container{
+    width:100%;
+    background-color: #466e87; 
+}
+
+#topbar-menu{
+    height: 70px;
+    border: 1px #CCCCCC solid;
+    margin: 0 auto;
+}
+
+#topbar-menu a{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFF7;
+    padding: 0 20px;
+    position:relative;
+    top:30px;
+    text-decoration: none;
+    float: right;
+}
+
+#topbar-menu a:hover{
+    text-decoration: underline;
+}
+
+h1{
     text-align: center;
 }
