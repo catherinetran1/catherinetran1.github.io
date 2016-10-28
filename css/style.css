@@ -1,16 +1,33 @@
-
-#topbar-container{
-    width:100%;
-    background-color: #466e87; 
+body,html {
+    min-height: 100%;
 }
 
-#topbar-menu{
+body{
+    
+    background-image:url(../img/roadtrip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px; 
+}
+
+/*Daniel Zuzevich Youtube Video, transparent overlay*/ 
+#bg-img-overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10; 
+}
+
+nav{
     height: 70px;
-    border: 1px #CCCCCC solid;
-    margin: 0 auto;
+    width: 100%; 
+    /*background-color: #466e87;*/
 }
 
-#topbar-menu a{
+nav a{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFF7;
@@ -21,7 +38,7 @@
     float: right;
 }
 
-#topbar-menu a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 
