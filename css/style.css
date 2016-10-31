@@ -122,7 +122,7 @@ nav ul li a:hover {
 /*Responsive Design*/
 
 /*smartphones*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
 
     nav {
     height: 70px;
@@ -136,7 +136,7 @@ nav ul li a:hover {
 
     nav ul li a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Poppins', sans-serif;
         color: #FFFFF7;
         padding: 0 20px;
