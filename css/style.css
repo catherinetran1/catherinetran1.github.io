@@ -1,8 +1,9 @@
+
 body,html {
     min-height: 100%;
 }
 
-body{
+body {
     
     background-image:url(../img/roadtrip.JPG);
     background-repeat: no-repeat;
@@ -10,10 +11,11 @@ body{
     margin: 0px; 
 }
 
+
 /*Daniel Zuzevich Youtube Video, transparent overlay*/ 
-#bg-img-overlay{
+#bg-img-overlay {
     position: absolute;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     top: 0;
     bottom: 0;
     height: 100%;
@@ -21,44 +23,140 @@ body{
     z-index: -10; 
 }
 
-nav{
+nav {
     height: 70px;
     width: 100%; 
     /*background-color: #466e87;*/
 }
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+}
 
-nav a{
+nav ul li a {
+    text-decoration: none;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFF7;
     padding: 0 20px;
     position:relative;
     top:30px;
-    text-decoration: none;
     float: right;
+    
 }
-
-nav a:hover{
+nav ul li a:hover {
     text-decoration: underline;
 }
+/*code course youtube video*/
+/*home page*/
+#top-header {
+    width: 100%;
+    max-width: 960px;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    text-align: center;
+    margin: 150px auto 0px auto; 
+    font-size: 50px; 
+}
+
+#below-header {
+    width: 100%;
+    max-width: 960px;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    margin: 0px auto; 
+    text-align: center;
+    font-size: 35px; 
+}
+#aspire {
+    font-family:;
+}
+
+/*about me page*/
 
 /*name and picture*/
 
-#name-pic-container{
+#name-pic-container {
     width: 300px;
     margin: 20px;
     padding-left: 40px;
 }
 
-#img-myself{
+#img-myself {
     width: 200px;
     border-radius: 70%;
     padding: 25px;
+    display: inline;
+    float: center;
 
 }
 
-#my-name{
+#my-name {
     font-size: 32px;
     font-family: 'Yeseva One', sans-serif;
     text-align: center; 
+}
+
+#text-about{
+    float: left; 
+    width: 500px;
+    margin: 20px; 
+    display: block;
+}
+
+#academic-about {
+    
+}
+
+
+
+
+
+
+/*Responsive Design*/
+
+/*smartphones*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    nav {
+    height: 70px;
+    width: 100%; 
+    /*background-color: #466e87;*/
+    }
+   
+    nav ul li {
+        list-style: none;
+        display: inline;
+        float: left;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFF7;
+        padding: 0 20px;
+        position:relative;
+        top:30px;
+        float: right;
+    
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+}
+/*Tablets*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+/*Desktop laptop*/
+@media only screen  and (min-width : 1224px) {
+/* Styles */
 }
