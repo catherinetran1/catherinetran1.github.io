@@ -9,6 +9,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px; 
+    color: #FFFFF7; 
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 
@@ -31,6 +35,7 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
+    float: right;
 }
 nav ul li {
     list-style: none;
@@ -51,7 +56,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-/*code course youtube video*/
+
 /*home page*/
 #top-header {
     width: 100%;
@@ -84,29 +89,23 @@ nav ul li a:hover {
 
 #name-pic-container {
     width: 300px;
-    margin: 20px;
-    padding-left: 40px;
+    margin: 0 auto;
+    
 }
 
 #img-myself {
     width: 200px;
     border-radius: 70%;
     padding: 25px;
-    display: inline;
-    float: center;
+    display: block;
+    margin: 0 auto;
+    
 
-}
-
-#my-name {
-    font-size: 32px;
-    font-family: 'Yeseva One', sans-serif;
-    text-align: center; 
 }
 
 #text-about{
-    float: left; 
     width: 500px;
-    margin: 20px; 
+    margin: 0 auto; 
     display: block;
 }
 
