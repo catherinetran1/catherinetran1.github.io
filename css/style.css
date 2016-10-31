@@ -124,30 +124,6 @@ nav ul li a:hover {
 /*smartphones*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
 
-    nav {
-    height: 70px;
-    width: 100%; 
-    }
-   
-    nav ul li {
-        display: inline;
-        float: left;
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        font-size: 15px;
-        font-family: 'Poppins', sans-serif;
-        color: #FFFFF7;
-        padding: 0 20px;
-        position:relative;
-        top:30px;
-        float: right;
-    
-    }
-    nav ul li a:hover {
-        text-decoration: underline;
-    }
     
 }
 /*Tablets*/
