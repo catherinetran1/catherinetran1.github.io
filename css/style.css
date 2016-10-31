@@ -26,7 +26,7 @@ body {
 nav {
     height: 70px;
     width: 100%; 
-    /*background-color: #466e87;*/
+    background-color: #466e87;
 }
 nav ul {
     margin: 0;
@@ -127,11 +127,10 @@ nav ul li a:hover {
     nav {
     height: 70px;
     width: 100%; 
-    /*background-color: #466e87;*/
+    background-color: black;
     }
    
     nav ul li {
-        list-style: none;
         display: inline;
         float: left;
     }
