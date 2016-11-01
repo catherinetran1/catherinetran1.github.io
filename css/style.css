@@ -183,6 +183,10 @@ nav ul li a:hover {
     height: 30px;
 }
 
+#instatext{
+    font-family: firstFont, 'Raleway Dots', 'Poppins', sans-serif;
+}
+
 /*Responsive Design*/
 
 /*smartphones*/
