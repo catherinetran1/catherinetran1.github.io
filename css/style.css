@@ -184,7 +184,8 @@ nav ul li a:hover {
 }
 
 #instatext{
-    font-family: firstFont, 'Raleway Dots', 'Poppins', sans-serif;
+    font-family: 'Raleway Dots', 'Poppins', sans-serif;
+    font-size: 28px;
 }
 
 /*Responsive Design*/
