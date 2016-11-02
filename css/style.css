@@ -192,7 +192,11 @@ nav ul li a:hover {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+#petit{
+    width:250px;
+    margin-top: 11px;
+    background-color: transparent;
+}
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
