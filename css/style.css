@@ -186,9 +186,9 @@ nav ul li a:hover {
     /* For mobile phones: */
 
     nav ul li a {
-        font-size: 13px;
-        padding: 0px 0px;
-        margin-right: 10px;
+        font-size: 15px;
+        padding: 0px 10px;
+        margin-right: 8px;
         position: relative;
     }
     /*home page*/
