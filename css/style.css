@@ -111,6 +111,8 @@ nav ul li a:hover {
     width: 500px;
     margin: 0 auto; 
     display: block;
+    background-color:rgba(0,0,0,0.5);
+    padding: 10px;
 }
 
 #academic-about a {
@@ -213,12 +215,8 @@ nav ul li a:hover {
     }
     #text-about{
         width: 300px;
-        padding: 10px;
-        background-color:rgba(0,0,0,0.5);
     }
-    body,html {
-        min-height: 50%;
-    }
+
     body {
         background-image:url(../img/roadtrip.JPG);
         background-repeat: no-repeat;
