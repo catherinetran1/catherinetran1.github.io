@@ -217,17 +217,6 @@ nav ul li a:hover {
         width: 300px;
     }
 
-    body {
-        background-image:url(../img/roadtrip.JPG);
-        background-repeat: no-repeat;
-        background-size: 250%;
-        margin: 0px; 
-        color: #FFFFF7; 
-        font-family: 'Poppins',sans-serif;
-        font-size: 16px;
-        text-align: center;
-    }
-
    /*contact me*/
     #contact-header{
         margin: 50px 20px;
