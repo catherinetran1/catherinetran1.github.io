@@ -178,7 +178,23 @@ nav ul li a:hover {
 }
 
 /*Projects page*/
-
+.probox{
+    width: 600px;
+    height: 200px;
+    margin: 50px auto; 
+    display: block;
+    background-color:rgba(0,0,0,0.5);
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 20px; 
+}
+.projImg{
+    width: 200px;
+    height: 160px;
+    float: left;
+    padding: 10px;
+}
 
 /*Responsive Design*/
 
@@ -224,6 +240,17 @@ nav ul li a:hover {
         width: 200px;
         height: 30px;
     }
+      .probox{
+        width: 350px;
+        height: 400px;
+
+    }
+    .projImg{
+        width: 200px;
+        height: 160px;
+        float: none;
+        margin: 10px 40px;
+    }
 
 }
 
@@ -267,6 +294,7 @@ nav ul li a:hover {
         width: 350px;
         height: 40px;
     }
+  
 }
 /*Desktop laptop*/
 @media only screen  and (min-width : 768px) {
