@@ -195,15 +195,15 @@ nav ul li a:hover {
 }
 
 .accordion:after {
-    content: '\02795';
+    content: '\25BD';
     font-size: 15px;
-    color: green;
+    color: white;
     float: right;
     margin-left: 0px;
 }
 
 .accordion.active:after {
-    content: "\2796";
+    content: "\25B3";
 }
 
 .panel {
