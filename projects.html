@@ -19,6 +19,7 @@
             </ul> 
         </nav>
         <h1>Projects</h1>
+        <header>Here's a little bit of what I've been up to at UCI.</header><br>
         <button class="accordion">Project Management</button>
             <div class="panel">
             <img class="projImg" id="petit" src="img/petitchoux.png">
@@ -36,36 +37,6 @@
             <img class="projImg" id="143EC" src="img/143EC.png">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].onclick = function(){
-                    this.classList.toggle("active");
-                    this.nextElementSibling.classList.toggle("show");
-              }
-            }
-        </script>
-        <!--
-        <div class="probox" id="firstP">
-            <img class="projImg" id="petit" src="img/petitchoux.png">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra luctus neque id ultricies. Suspendisse non dictum leo. Sed euismod augue nec lorem efficitur, ac dapibus arcu scelerisque. Etiam consequat eget magna sed finibus. Proin sed dictum nibh. Nunc facilisis diam eu venenatis eleifend. Donec vitae metus sollicitudin, ultricies lorem ac, sodales risus. Nunc suscipit porta nibh eget varius. Nam eget ornare est. Aenean a massa non nisl rhoncus pellentesque sollicitudin ut ex.
-            </p>
-        </div>
-        <div class="probox" id="secondP">
-            <img class="projImg" id="143EC" src="img/143EC.png">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra luctus neque id ultricies. Suspendisse non dictum leo. Sed euismod augue nec lorem efficitur, ac dapibus arcu scelerisque. Etiam consequat eget magna sed finibus. Proin sed dictum nibh. Nunc facilisis diam eu venenatis eleifend. Donec vitae metus sollicitudin, ultricies lorem ac, sodales risus. Nunc suscipit porta nibh eget varius. Nam eget ornare est. Aenean a massa non nisl rhoncus pellentesque sollicitudin ut ex. 
-            </p>
-        </div>
-        <div class="probox" id="thirdp">
-            <img class="projImg" src="img/final132.png">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra luctus neque id ultricies. Suspendisse non dictum leo. Sed euismod augue nec lorem efficitur, ac dapibus arcu scelerisque. Etiam consequat eget magna sed finibus. Proin sed dictum nibh. Nunc facilisis diam eu venenatis eleifend. Donec vitae metus sollicitudin, ultricies lorem ac, sodales risus. Nunc suscipit porta nibh eget varius. Nam eget ornare est. Aenean a massa non nisl rhoncus pellentesque sollicitudin ut ex. 
-            </p>
-        </div>
-        --> 
+        <script src="js/accordion.js"></script>
     </body>
 </html>

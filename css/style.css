@@ -178,17 +178,6 @@ nav ul li a:hover {
 }
 
 /*Projects page*/
-.probox{
-    width: 600px;
-    height: 200px;
-    margin: 50px auto; 
-    display: block;
-    background-color:rgba(0,0,0,0.5);
-    padding: 10px;
-    font-size: 12px;
-    text-align: left;
-    text-indent: 20px; 
-}
 .projImg{
     width: 200px;
     height: 160px;
