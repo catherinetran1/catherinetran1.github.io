@@ -168,7 +168,8 @@ nav ul li a:hover {
 }
 
 /*Projects page*/
-.projImg{
+
+.projImg {
     width: 200px;
     height: 160px;
     float: left;
