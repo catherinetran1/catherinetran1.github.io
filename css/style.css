@@ -139,7 +139,7 @@ nav ul li a:hover {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 8px;
-    width: 400px;
+    width: 300px;
     height: 30px;
     font-family: 'Raleway Dots', 'Poppins', sans-serif;
     margin-top:10px;
@@ -232,7 +232,7 @@ nav ul li a:hover {
 
 /*Summary of findings*/
 
-#findings{
+.findings{
     font-size: 12px;
     text-align: left;
 }
@@ -330,7 +330,7 @@ nav ul li a:hover {
     }
     .button {
         padding: 10px 32px;
-        width: 350px;
+        width: 275px;
         height: 40px;
     }
   
