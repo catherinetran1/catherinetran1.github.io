@@ -19,117 +19,53 @@
         </nav>
         <h1>Projects</h1>
         <header>Here's a little bit of what I've been up to at UCI.</header><br>
-        <!-- Trigger the Modal -->
-        <img class="projImg" id="petit" alt="Petit Choux Macarons" src="img/petitchoux.png">
-        <!-- The Modal -->
-        <div id="petitchoux" class="modal">
-              <!-- The Close Button -->
-              <span class="close" onclick="document.getElementById('petitchoux').style.display='none'">&times;</span>
-
-              <!-- Modal Content -->
-              <img class="modal-content" id="modal1">
-                <section>
-                    <div class="slideshow-container">
-                          <div class="mySlides fade">
-                            <div class="numbertext">1 / 3</div>
-                            <img class="slidepics"src="img/petitchoux.png">
-                          </div>
-
-                          <div class="mySlides fade">
-                            <div class="numbertext">2 / 3</div>
-                            <img class="slidepics"src="img/PetitGallery.png" >
-                            
-                          </div>
-
-                          <div class="mySlides fade">
-                            <div class="numbertext">3 / 3</div>
-                            <img class="slidepics" src="img/PetitMenu.png" >
-                          </div>
-
-                          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <br>
-
-                    <div style="text-align:center">
-                      <span class="dot" onclick="currentSlide(1)"></span> 
-                      <span class="dot" onclick="currentSlide(2)"></span> 
-                      <span class="dot" onclick="currentSlide(3)"></span> 
-                    </div>
-                </section>
-                <section>
+        <button class="accordion">Project Management</button>
+            <div class="panel">
+                <img class="projImg" id="petit" src="img/petitchoux.png">
                     <ul class="projectText">
                         <li>
-                            <em>Course</em>:<br> Project Management
+                            <em>Course</em>: Project Management
                         </li>
                         <li>
-                            <em>Description</em>: <br>My team and I created a website for a small macaron business. 
+                            <em>Description</em>: My team and I created a website for a small macaron business. 
                         </li>
                         <li>
-                            <em>Skills</em>:<br> Project Management, Website Design
-                        </li>
-                        <li>
-                            <em>Lessons Learned</em>: <br>I learned how to create Gantt charts, how to communicate effectively with my group members, how to gather requirements from the client, and how to use features and plugins on WordPress to create the website. 
+                            <em>Lessons Learned</em>: I learned how to create Gantt charts, how to communicate effectively with my group members, how to gather requirements from the client, and how to use features and plugins on WordPress to create the website. 
                         </li>
                     </ul>
-                    <br><br><br><br><br>
-                </section>
-        </div>
-        <img class="projImg" id="inf132" alt="Fundamental Physics and Cosmology" src="img/final132.png">
-        <div id="132" class="modal">
-              <!-- The Close Button -->
-              <span class="close" onclick="document.getElementById('132').style.display='none'">&times;</span>
-              <!-- Modal Content -->
-              <img class="modal-content" id="modal2">
-            <img class="modal-content" src="img/final132.png">
-                <section>
-                     <ul class="projectText">
-                        <li>
-                            <em>Course</em>:<br> Project in Human Computer Interaction
-                        </li>
-                        <li>
-                            <em>Description</em>:<br> My team and I redesigned a website for a physics and cosmology professor at UCI. I was part of the design and user testing team.
-                             
-                        </li>
-                        <li>
-                            <em>Skills</em>: <br> Mockups using Sketch, Usability testing, Technical Writing
-                        </li>
-                        <li>
-                            <em>Lessons Learned</em>:<br> I learned how to create mockups using Sketch, how to conduct usability testing, and how to analyze the results from usability testing to improve features on the website. 
-                        </li>
-                        <li><em>Artifacts:</em> <br><a class="modalLink" href="assets/FinalReport.pdf" target="_blank">Final Report</a><br><a class="modalLink" href="assets/myMockup.pdf" target="_blank">My Mockups</a>
-                        </li>
-                    </ul>
-                </section><br><br><br><br><br>
-            
-        </div>
-        <img class="projImg" id="inf143" alt="Information Visualization" src="img/143EC.png">
-        <div id="143" class="modal">
-              <!-- The Close Button -->
-              <span class="close" onclick="document.getElementById('143').style.display='none'">&times;</span>
+            </div>
 
-              <!-- Modal Content -->
-              <img class="modal-content" id="modal3">
-            <img class="modal-content" src="img/143EC.png">
-                <section>
-                     <ul class="projectText">
+        <button class="accordion">Design and Usability Testing</button>
+            <div class="panel">
+                <img class="projImg" id="petit" src="img/final132.png">
+                    <ul class="projectText">
                         <li>
-                            <em>Course</em>:<br> Information Visualization
-                        </li>
-                        <li>
-                            <em>Description</em>:<br> I was assigned to create mockups of a dashboard for an introductory programming course offered at UCI. I had to create user interfaces for students, professors, and TA/Readers based on certain criteria given by my professor. 
-                        </li>
-                         <li>
-                            <em>Skills</em>: <br> Wireframes using Balsamiq, data visualization
+                            <em>Course</em>: Project in Human Computer Interaction
                         </li>
                         <li>
-                            <em>Lessons Learned</em>:<br> I learned how to critically think about how to design a UI that would be easy to use for different user groups. I learned how to present data in a visual format that is easy to understand.  
+                            <em>Description</em>: My team and I redesigned a website for a physics and cosmology professor at UCI. I was part of the design and user testing team.
                         </li>
-                        <li><em>Artifacts:</em><br><a class="modalLink" href="assets/143Explain.pdf" target="_blank">Assignment Details</a><br><a class="modalLink" href="assets/143EC.pdf" target="_blank">Final Report</a>
+                        <li>
+                            <em>Lessons Learned</em>: I learned how to create mockups using Sketch, how to conduct usability testing, and how to analyze the results from usability testing to improve features on the website. 
                         </li>
                     </ul>
-                </section><br><br><br><br><br>
-        </div>
-        <script src="js/modal.js"></script>
+            </div>
+
+            <button class="accordion">Information Visualization</button>
+            <div id="foo" class="panel">
+                <img class="projImg" id="petit" src="img/143EC.png">
+                    <ul class="projectText">
+                        <li>
+                            <em>Course</em>: Information Visualization
+                        </li>
+                        <li>
+                            <em>Description</em>: I was assigned to create mockups of a dashboard for an introductory programming course offered at UCI. I had to create user interfaces for students, professors, and TA/Readers based on certain criteria given by my professor. 
+                        </li>
+                        <li>
+                            <em>Lessons Learned</em>: I learned how to critically think about how to design a UI that would be easy to use for different user groups. I learned how to present data in a visual format that is easy to understand.  
+                        </li>
+                    </ul>
+            </div>
+        <script src="js/accordion.js"></script>
     </body>
 </html>
