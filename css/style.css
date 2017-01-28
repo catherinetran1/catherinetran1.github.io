@@ -1,26 +1,38 @@
-
+/*
 body,html {
     min-height: 100%;
 }
-
-body {
-    
+*/
+body{
+    margin: 0px; 
+    color: #FFFFF7; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/*
+body.home {
     background-image:url(../img/roadtrip.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px; 
-    color: #FFFFF7; 
-    font-family: 'Poppins',sans-serif;
-    font-size: 16px;
-    text-align: center;
 }
+*/
+.pics{
+    height: 200px;
+    width: 200px;
+}
+
 @font-face {
     font-family: firstFont;
     src: url(../fonts/mightype_script.otf); 
 }
+@font-face{
+    font-family: navFont;
+    src: url(../fonts/adamcpro-shrenik.otf);
+}
 
-/*Daniel Zuzevich Youtube Video, transparent overlay*/ 
-#bg-img-overlay {
+/*Daniel Zuzevich Youtube Video, transparent overlay
+#bg-overlay {
     position: absolute;
     background-color: rgba(0,0,0,0.3);
     top: 0;
@@ -29,11 +41,11 @@ body {
     width: 100%;
     z-index: -10; 
 }
-
+*/
 nav {
-    height: 70px;
+    height: 60px;
     width: 100%; 
-    /*background-color: #466e87;*/
+    /*background-color: rgba(0,0,0,0.4);*/
 }
 nav ul {
     margin: 0;
@@ -47,9 +59,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFF7;
+    font-size: 15px;
+    font-family: navFont, sans-serif;
+    color: black;
     padding: 0 20px;
     position:relative;
     top:30px;
@@ -63,8 +75,8 @@ nav ul li a:hover {
 #top-header {
     width: 100%;
     max-width: 960px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
     text-shadow: 1px 1px 0 rgba(0,0,0,.2);
     text-align: center;
     margin: 150px auto 0px auto; 
@@ -74,8 +86,8 @@ nav ul li a:hover {
 #sub-header {
     width: 100%;
     max-width: 960px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
     text-shadow: 1px 1px 0 rgba(0,0,0,.2);
     margin: 0px auto; 
     text-align: center;
@@ -83,34 +95,43 @@ nav ul li a:hover {
 }
 #aspire {
     font-family: firstFont, 'Poppins', sans-serif;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 /*about me page*/
 
-
+#about{
+    color: black; 
+}
 #name-pic-container {
     width: 300px;
     margin: 0 auto;
     
 }
-
+/*
+body.about{
+        background-image:url(../img/mecrop.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+*/
 #img-myself {
-    width: 200px;
-    border-radius: 70%;
-    padding: 25px;
+    width: 500px;
+    margin: 0 auto;  
     display: block;
-    margin: 0 auto;
-    
-
 }
 
 #text-about {
-    width: 500px;
+    width: 700px;
     margin: 0 auto; 
     display: block;
-    background-color:rgba(0,0,0,0.5);
-    padding: 10px;
+    padding: 5px;
+    position: relative;
+    top: 50px; 
+    font-size: 17px;
+    color: black;
+ 
 }
 
 #academic-about a {
@@ -124,8 +145,18 @@ nav ul li a:hover {
 
 /*Contact me page*/
 /*w3 schools css buttons*/
+/*
+body.contact{
+        background-image:url(../img/cardash.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+*/
 #contact-header {
-    margin: 100px auto;
+    margin-top: 170px;
+    margin-bottom: 40px;
+    color: black;
 }
 .button {
     border: none;
@@ -141,9 +172,8 @@ nav ul li a:hover {
     border-radius: 8px;
     width: 300px;
     height: 30px;
-    font-family: 'Raleway Dots', 'Poppins', sans-serif;
     margin-top:10px;
-    background-color: #007AB6; 
+    background-color:rgba(0,0,0,0.7);
 }
 .button1 {
     background-image: url(../img/linkedinlogosm.png); 
@@ -168,7 +198,15 @@ nav ul li a:hover {
 }
 
 /*Projects page*/
-
+h1{
+    color: black; 
+}
+header{
+    color:black;
+}
+body.project{
+    color:black; 
+}
 .projImg {
     width: 300px;
     height: 200px;
@@ -206,7 +244,10 @@ nav ul li a:hover {
     max-width: 700px;
     
 }
-
+#headings{
+    font-size: 20px;
+    font-weight: 800;
+}
 
 /* The Close Button */
 .close {
@@ -237,7 +278,7 @@ nav ul li a:hover {
 }
 
 .projectText {
-    font-size: 13px;
+    font-size: 15px;
     list-style: none;
     margin: auto;
     padding: 20px;
@@ -362,7 +403,7 @@ nav ul li a:hover {
 @media only screen and (max-width:414px) {
     nav ul li a {
         font-size: 15px;
-        padding: 0px 6px;
+        padding: 0px 10px;
         margin-right: 10px;
         position: relative;
         float: none;
@@ -383,11 +424,13 @@ nav ul li a:hover {
     
     /*about me*/
     #img-myself {
-        width: 150px;
+        width: 300px;
+        margin-top: 50px;
     }
     #text-about{
         width: 300px;
     }
+
 
    /*contact me*/
     #contact-header{
@@ -428,18 +471,18 @@ nav ul li a:hover {
         font-size: 50px;
     }
      nav ul li a {
-        font-size: 18px;
         padding: 10px 20px;
         margin-right: 25px;
         
     }
      #img-myself {
         margin-top: 19px;
-        width: 200px;
+        width: 350px;
+        text-align: center; 
     }
     
     #text-about{
-        width: 400px;
+        width: 400px; 
     }
 
     
