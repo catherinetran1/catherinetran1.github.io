@@ -284,6 +284,11 @@ body.project{
     padding: 20px;
     text-align: left;
 }
+#projects{
+    color:black;
+    font-family: firstFont;
+    font-size:40px;
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 500px;
