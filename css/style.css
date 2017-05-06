@@ -262,6 +262,18 @@ body.project{
     text-align: left;
     color:black;
 }
+#ssvid{
+    margin-top: 5%;
+    height: 500px;
+}
+.ptext a {
+    text-decoration: none;
+    color: #6495ED;
+}
+
+.ptext a:hover{
+    text-decoration: underline;
+}
 #projects{
     color:black;
     font-family: firstFont;
