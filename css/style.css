@@ -31,6 +31,10 @@ body.home {
     height: 200px;
     width: 200px;
 }
+.pics1{
+    height: 200px;
+    width:: 300px; 
+}
 
 @font-face {
     font-family: firstFont;
@@ -289,11 +293,15 @@ body.project{
 .parent{
     display: flex;
 }
-#img143{
+.scroll{
     width: 60%;
     height: 450px;
     position:relative;
     overflow: scroll;
+}
+#projectpics{
+    width: 60%;
+    position: relative;
 }
 .featuredpic{
     float: left;
@@ -301,6 +309,7 @@ body.project{
     margin-left: 5%;
     margin-top: 5%;
 }
+
 .featuredpic1{
     float: relative;
     width: 60%;
