@@ -19,6 +19,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     text-align: center;
+    height: 100%;
 }
 /*
 body.home {
@@ -292,6 +293,7 @@ body.project{
 }
 .parent{
     display: flex;
+    height: 100%; 
 }
 .scroll{
     width: 60%;
@@ -396,6 +398,7 @@ body.project{
     }
     .featuredpic1{
         width:80%;
+        
     }
     .ptext{
         width: 100%;
@@ -406,6 +409,11 @@ body.project{
     }
     .parent{
         display: block;
+    }
+    .scroll{
+        margin-left:20%;
+        height: 250px;
+        
     }
     #img143{
         width: 100%;
