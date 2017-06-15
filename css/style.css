@@ -300,6 +300,7 @@ body.project{
     height: 450px;
     position:relative;
     overflow: scroll;
+    margin-top: 5%;
 }
 #projectpics{
     width: 60%;
