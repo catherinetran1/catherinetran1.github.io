@@ -119,7 +119,13 @@ nav img{
     font-family: firstFont, 'Poppins', sans-serif;
     font-size: 50px;
 }
-
+h3 a{
+    text-decoration: none;
+    color: #6495ED;
+}
+h3 a:hover{
+    text-decoration: underline;
+}
 /*about me page*/
 
 #about{
