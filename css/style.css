@@ -402,9 +402,12 @@ body.project{
         float: inherit;
         width: 80%;
     }
+    
     .featuredpic1{
-        width:80%;
-        
+        width: 100%;
+    }
+    .featuredpic2{
+        width: 100%;
     }
     .ptext{
         width: 100%;
