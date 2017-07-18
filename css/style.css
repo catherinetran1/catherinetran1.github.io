@@ -145,7 +145,7 @@ body.about{
     }
 */
 #img-myself {
-    width: 500px;
+    width: 500px; 
     margin: 0 auto;  
     display: block;
 }
@@ -343,13 +343,11 @@ body.project{
 @media only screen and (max-width:414px) {
     nav{
         margin-top: 5%;
-        width: 100%;
-        
     }
     nav ul li a {
         font-size: 13px;
-        padding: 0px 10px;
-        margin-right: 15px;
+        padding: 0px 5px;
+        margin-right: 20px;
         position: relative;
         float: none;
     }
@@ -451,7 +449,7 @@ body.project{
     }
      #img-myself {
         margin-top: 19px;
-        width: 65%;
+        width: 75%;
         text-align: center; 
     }
     
