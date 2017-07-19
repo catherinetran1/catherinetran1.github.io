@@ -131,11 +131,7 @@ h3 a:hover{
 #about{
     color: black; 
 }
-#name-pic-container {
-    width: 300px;
-    margin: 0 auto;
-    
-}
+
 /*
 body.about{
         background-image:url(../img/mecrop.JPG);
@@ -146,12 +142,13 @@ body.about{
 */
 #img-myself {
     width: 500px; 
-    margin: 0 auto;  
+    margin-right: 5%;
     display: block;
+    float: left;
 }
 
 #text-about {
-    width: 700px;
+    width: 90%;
     margin: 0 auto; 
     display: block;
     padding: 5px;
@@ -369,6 +366,8 @@ body.project{
     /*about me*/
     #img-myself {
         width: 300px;
+        float: none;
+        margin-right: 0px; 
     }
     #text-about{
         width: 300px;
@@ -452,8 +451,10 @@ body.project{
     }
      #img-myself {
         margin-top: 19px;
+        margin: 0 auto;
         width: 75%;
         text-align: center; 
+        float: none;
     }
     
     #text-about{
