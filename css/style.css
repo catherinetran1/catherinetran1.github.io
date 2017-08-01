@@ -348,9 +348,14 @@ body.project{
     float: left;
     margin-bottom: 5%;
 }
-.projpicsingle{
+.projpicsinglesmall{
     width: 50%;
     display: block;
+    margin: auto;
+}
+.projpicsingle{
+    width: 70%;
+    display:block;
     margin: auto;
 }
 .pnew a {
@@ -362,7 +367,6 @@ body.project{
     text-decoration: underline;
 }
 #imggroup{
-    margin-bottom: 16%;
 }
 
 .mainpic{
@@ -529,5 +533,5 @@ p.caption{
         width: 275px;
         height: 40px;
     }
-  
+ 
 }
