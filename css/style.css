@@ -85,6 +85,9 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+#current{
+    text-decoration: underline;
+}
 /*
 nav img{
     width: 20%;
@@ -287,6 +290,7 @@ body.project{
     font-family: firstFont;
     font-size:40px;
 }
+/* original format */
 .ptext{
     width: 40%;
     margin-top: 5%;
@@ -329,8 +333,46 @@ body.project{
     margin-left: 5%;
     margin-top: 5%;
 }
-#comingsoon{
-    width: 75%;
+
+/* new format*/
+.pnew{
+    width: 80%;
+    margin: 0 auto;
+}
+.projectSteps{
+    font-style:italic;
+}
+
+.projpic{
+    width: 50%;
+    float: left;
+    margin-bottom: 5%;
+}
+.projpicsingle{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.pnew a {
+    text-decoration: none;
+    color: #6495ED;
+}
+
+.pnew a:hover{
+    text-decoration: underline;
+}
+#imggroup{
+    margin-bottom: 16%;
+}
+
+.mainpic{
+    width: 50%;
+}
+.mainpicsmall{
+    width: 40%;
+}
+p.caption{
+    text-align: center;
 }
 /*Summary of findings*/
 
@@ -427,9 +469,24 @@ body.project{
         width: 100%;
         height: 350px;
     }
-
-}
-
+    .projpic{
+        width: 100%;
+        float:none;
+        margin-bottom: 0%;
+    }
+    .projectSteps{
+        width: 100%;
+    }
+    .projpicsingle{
+        width: 100%;
+    }
+    .mainpic{
+        width:70%;
+    }
+    .mainpicsmall{
+        width:70%;
+    }
+    
 
 /*Tablets*/
 @media only screen and (min-width : 415px) and (max-width: 768px){
