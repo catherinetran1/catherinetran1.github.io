@@ -478,8 +478,17 @@ p.caption{
         float:none;
         margin-bottom: 0%;
     }
-    .projectSteps{
+    .projectSteps {
         width: 100%;
+    }
+    .pnew ol,li {
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
+    .pnew ul,li{
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
     }
     .projpicsingle{
         width: 100%;
