@@ -1,0 +1,142 @@
+.container{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 200;
+}
+nav{
+    font-family: 'Montserrat', sans-serif; 
+    background-color: white;
+    font-weight: 200; 
+}
+.nav-item.active{
+    font-weight: 400;
+} 
+#frontPage{
+    text-align: center;
+}
+.navbar.bottom{
+    display:inline-block;
+    float: none; 
+}
+#top-header {
+    width: 100%;
+    max-width: 960px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+    color: black;
+    text-align: center;
+    margin: 10% auto 0 auto; 
+    font-size: 50px; 
+}
+
+#sub-header {
+    width: 100%;
+    max-width: 960px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    margin: 0px auto; 
+    text-align: center;
+    font-size: 30px; 
+}
+h3{
+    font-weight: 100;
+}
+h3 a{
+    text-decoration: none;
+    color: #6495ED;
+}
+h3 a:hover{
+    text-decoration: underline;
+}
+.pics{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2%;
+}
+/*about*/
+#img-myself {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.col-md.atext{
+    text-align: center;  
+}
+
+
+#academic-about{
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+#academic-about a {
+    text-decoration: none;
+    color: #6495ED;
+}
+
+#academic-about a:hover{
+    text-decoration: underline;
+}
+
+/*Projects*/
+.projImg {
+    width: 250px;
+    height: 175px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/*img hover*/
+.projImg:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+.mainpicsmall{
+        width:55%;
+    }
+.projpicsingle{
+    width: 70%;
+    display:block;
+    margin: auto;
+}
+.copyright{
+    font-weight: 100;
+    color: gray;
+    font-size: 14px;
+}
+.mainpic{
+    width: 80%;
+}
+.projpic{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.projpic1{
+    width:70%;
+    display: block;
+    margin: auto;
+}
+.projpicsmall{
+    display: block;
+    margin: auto;
+}
+.projpicsmall1{
+    width:75%;
+    display: block;
+    margin: auto;
+}
+#ssvid{
+    margin-top: 5%;
+    height: 500px;
+}
+.navbar.fixed-bottom{
+    display: inline-block;
+    float:none;
+}
+.smicon{
+    width:11%;
+    padding: 3%; 
+}
+.btn{
+    padding: 1%;
+}
