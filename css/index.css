@@ -137,6 +137,10 @@ h3 a:hover{
     width:11%;
     padding: 3%; 
 }
+.smicon:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
 .btn{
     padding: 1%;
 }
