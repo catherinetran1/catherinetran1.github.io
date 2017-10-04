@@ -52,11 +52,13 @@ h3 a:hover{
     height: 200px;
     width: 200px;
     margin-bottom: 2%;
+    pointer-events: none;
 }
 /*about*/
 #img-myself {
     width: 100%;
     margin-bottom: 5%;
+    pointer-events: none;
 }
 .col-md.atext{
     text-align: center;  
