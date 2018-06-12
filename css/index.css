@@ -87,6 +87,13 @@ h3 a:hover{
     cursor: pointer;
     transition: 0.3s;
 }
+h3{
+    font-weight: 300;
+    font-size: 125%;
+}
+h4{
+    font-size: 100%; 
+}
 /*img hover*/
 .projImg:hover {
     opacity: 0.5;
