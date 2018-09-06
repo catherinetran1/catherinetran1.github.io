@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif; 
     font-weight: 200;
 }
+
 nav{
     font-family: 'Montserrat', sans-serif; 
     background-color: white;
@@ -152,4 +153,19 @@ h4{
 }
 .btn{
     padding: 1%;
+}
+#sketch-pic{
+    height:400px;
+    display: block;
+    margin: auto;
+    pointer-events: none;
+}
+.img-caption{
+    text-align: center;
+    font-weight: 500;
+}
+.projpic2{
+    display: block;
+    margin: auto;
+    pointer-events: none;
 }

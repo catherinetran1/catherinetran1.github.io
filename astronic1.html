@@ -103,7 +103,37 @@
                         <h4>
                             Requirements elicitation and documentation
                         </h4>
-                        It is important to formulate documents and diagrams detailing the product and its core functionalities and goals to illustrate our plan for the product. In an Agile environment, things will likely change during development, and these documents will be edited to reflect these changes. In other words, they are a living document. <br><br>Below are examples of some of the personas and storyboards that give a better idea of the use of each component. 
+                        It is important to formulate documents and diagrams detailing the product and its core functionalities and goals to illustrate our plan for the product. In an Agile environment, things will likely change during development, and these documents will be edited to reflect these changes. In other words, they are a living document. <br><br>Below are examples of the diagrams found in our requirements documents.
+                        <div id="accordion">
+                            <div class="card">
+                            <div class="card-header" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Diagrams
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                  <h6>Swimlane Diagram</h6>
+                                  <p>This help us visualize how the mobile and desktop would interact with each other. </p>
+                                  <img src="img/SwimLaneDiagram.png" class="projpic1">
+                                  <br>
+                                  <h6>Use Case Diagram</h6>
+                                  <img class="projpic1" src="img/use-case-diagram.png"><br>
+                                  <h6>Persona - Administrator</h6>
+                                  <img class="projpic1" src="img/personaadmin.png"><br>
+                                  <h6>Persona - Operator</h6>
+                                  <img class="projpic1" src="img/personaOperator.png"><br>
+                                  <h6>Storyboard - Administrator (updated with screens from live desktop app)</h6>
+                                  <img class="projpic1" src="img/StoryboardController.jpg"><br>
+                                  <h6>Storyboard - Operator(updated with screens from live mobile app)</h6>
+                                  <img class="projpic1" src="img/StoryboardWaferNav.jpg">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                            <!--
                         <div class="row">
                             <div class="col-md"><a href="img/personaOperator.png" target="_blank"><img class="projpic" src="img/personaOperator.png"></a>
                                     <p class="caption text-center">Operator Persona</p></div>
@@ -114,14 +144,80 @@
                             <div class="col-md"><a href="img/personaadmin.png" target="_blank"><img class="projpic" src="img/personaadmin.png"></a><p class="caption text-center">Administrator Persona</p></div>
                              <div class="col-md"><a href="img/StoryboardController.pdf" target="_blank"><img class="projpic" src="img/StoryboardController.jpg"></a><p class="caption text-center">Storyboard for ActivATE Desktop Application</p></div>
                         </div>
+-->
                     </li>
                     <li class="list-group-item">
                         <h4>Design</h4>
-                        Create wireframes, mockups, and interactive prototypes to visualize product. <br><img class="projpic1" src="img/test_unload.png">
+                        Create wireframes and mockups to visualize the product. <br><br>
+                         <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Mobile Application
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                  <h6>Sketch of mobile application</h6>
+                                  <p>This was our intial sketch of the mobile application. In order to start with the initial sketch, we had to conduct research to get a better understanding of inventory tracking systems. We did a competitive analysis on current inventory tracking systems and asked our clients detailed questions in order to understand their testing process. We wanted to understand the basic flow of the application and illustrate its main purpose.</p>
+                                  <img src="img/astronics-sketch.jpg" id="sketch-pic">
+                                  <br>
+                                  <h6>Wireframe</h6>
+                                  <img class="projpic1" src="img/astronics-mockup1.jpg">
+                                  <h6>Mockups</h6>
+                                  <p>After showing the initial wireframe to our clients, they provided feedback and wanted to remove the input function and only have the scanning function. Additionally, they gave us more background information about the test/load/unload process which gave us the idea of changing the home page to initiate the three step process.</p>
+                                  <p class="img-caption">Load sequence</p>
+                                  <img class="projpic1" src="img/load-asstronics.png"><br>
+                                  <p class="img-caption">Test/unload sequence</p>
+                                  <img class="projpic1" src="img/test-unload-astronics.png"><br>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="headingTwo">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Desktop Application
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <div class="card-body">
+                               <h6>Sketch of desktop application</h6>
+                                  <p>This was our intial sketch of the desktop application. We asked our clients to describe to us what functions they wanted and had them draw out what they wanted to see. Although we didn't move forward with this initial sketch, it was a great starting point and we got an idea of what they expected from us.  </p>
+                                  <img src="img/controller-astronics-sketch.jpg" id="sketch-pic">
+                                  <br>
+                                  <h6>Wireframe</h6>
+                                  <p>With their feedback and initial sketch, we created a wireframe that simplified the process and made the user interface easier to understand.</p>
+                                  <img class="projpic2" src="img/Controller-Status.png"><br>
+                                  <h6>Mockups</h6>
+                                  <p>After showing the initial wireframe to our clients, they provided feedback and wished to have a log tab that showed the real-time activity of the test/load/unload process.</p>
+                                  <p class="img-caption">Status Tab Active</p>
+                                  <img class="projpic1" src="img/controller-mockup1.png"><br>
+                                  <p class="img-caption">Log Tab Active</p>
+                                  <img class="projpic1" src="img/controller-log-mockup1.png"><br>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--
+                        <div class="row">
+                            <div class="col-md"><img class="projpic" src="img/astronics-sketch.jpg">
+                                    <p class="caption text-center">Initial sketch for mobile application</p></div>
+                            <div class="col-md"><img class="projpic" src="img/astronics-mockup1.jpg"><p class="caption text-center">Round 1 of Mockups</p></div>
+                            <div class="col-md"><img class="projpic" src="img/test-unload-astronics.png"><p class="caption text-center">After showing the initial mockups to our clients, they provided feedback and wanted to remove the input function and only have the scanning function. Additionally, they gave us more background information about the test/load/unload process which gave us the idea of changing the home page to initiate the three step process.</p></div>
+                        </div><br><br>
+                         <div class="row">
+                            <div class="col-md"><a href="img/personaadmin.png" target="_blank"><img class="projpic" src="img/personaadmin.png"></a><p class="caption text-center">Administrator Persona</p></div>
+                             <div class="col-md"><a href="img/StoryboardController.pdf" target="_blank"><img class="projpic" src="img/StoryboardController.jpg"></a><p class="caption text-center">Storyboard for ActivATE Desktop Application</p></div>
+                        </div>
+-->
                     </li>
                     <li class="list-group-item">
                         <h4>Development</h4>
-                        After receiving approval from clients, we begin development! As always, Test! Make improvements! Test again! <br>
+                        After receiving approval from clients, we started development! As always, Test! Make improvements! Test again! <br>
                         <div class="row">
                             <div class="col-md"><img class="projpic" src="img/androidstudio.png"></div>
                             <div class="col-md"><img class="projpic" src="img/Wafercrop.png"></div>
